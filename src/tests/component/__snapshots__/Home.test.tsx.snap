@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component unit testing Home renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Memo(Home)>
+    <styled.article>
+      <article
+        className="sc-hKgILt CUpEl"
+      >
+        <DisplayBanner
+          isBothPlayersConnected={true}
+          playerMainHasWon={false}
+          playerSecondaryHasWon={false}
+          players={
+            Array [
+              Object {
+                "id": 0,
+                "position": "right",
+                "random": 18,
+                "selected": -2,
+              },
+              Object {
+                "id": 1,
+                "position": "left",
+                "random": 10,
+                "selected": -1,
+              },
+            ]
+          }
+        />
+        <Memo(Player)
+          key="0"
+          position="right"
+          random={18}
+          selected={-2}
+        >
+          <styled.section
+            position="right"
+          >
+            <section
+              className="sc-dlfnbm erLmhA"
+            >
+              <div
+                className="player-container"
+              >
+                <CommonBtn
+                  content={-2}
+                  disabled={true}
+                >
+                  <styled.button
+                    color="#56aadb"
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="sc-bdfBwQ kBnWnV"
+                      color="#56aadb"
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                      -2
+                    </button>
+                  </styled.button>
+                </CommonBtn>
+                <Input
+                  value="[(-2 + 18) / 3]"
+                >
+                  <styled.input
+                    disabled={true}
+                    type="text"
+                    value="[(-2 + 18) / 3]"
+                  >
+                    <input
+                      className="sc-gsTCUz fBPyOD"
+                      disabled={true}
+                      type="text"
+                      value="[(-2 + 18) / 3]"
+                    />
+                  </styled.input>
+                </Input>
+                <Input
+                  value="5"
+                >
+                  <styled.input
+                    disabled={true}
+                    type="text"
+                    value="5"
+                  >
+                    <input
+                      className="sc-gsTCUz fBPyOD"
+                      disabled={true}
+                      type="text"
+                      value="5"
+                    />
+                  </styled.input>
+                </Input>
+              </div>
+            </section>
+          </styled.section>
+        </Memo(Player)>
+        <Memo(Player)
+          key="1"
+          position="left"
+          random={10}
+          selected={-1}
+        >
+          <styled.section
+            position="left"
+          >
+            <section
+              className="sc-dlfnbm lkROmz"
+            >
+              <div
+                className="player-container"
+              >
+                <CommonBtn
+                  content={-1}
+                  disabled={true}
+                >
+                  <styled.button
+                    color="#56aadb"
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="sc-bdfBwQ kBnWnV"
+                      color="#56aadb"
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                      -1
+                    </button>
+                  </styled.button>
+                </CommonBtn>
+                <Input
+                  value="[(-1 + 10) / 3]"
+                >
+                  <styled.input
+                    disabled={true}
+                    type="text"
+                    value="[(-1 + 10) / 3]"
+                  >
+                    <input
+                      className="sc-gsTCUz fBPyOD"
+                      disabled={true}
+                      type="text"
+                      value="[(-1 + 10) / 3]"
+                    />
+                  </styled.input>
+                </Input>
+                <Input
+                  value="3"
+                >
+                  <styled.input
+                    disabled={true}
+                    type="text"
+                    value="3"
+                  >
+                    <input
+                      className="sc-gsTCUz fBPyOD"
+                      disabled={true}
+                      type="text"
+                      value="3"
+                    />
+                  </styled.input>
+                </Input>
+              </div>
+            </section>
+          </styled.section>
+        </Memo(Player)>
+      </article>
+    </styled.article>
+  </Memo(Home)>
+</Provider>
+`;
+
+exports[`Snapshot testing Home renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Memo(Home)>
+    <styled.article>
+      <article
+        className="sc-hKgILt CUpEl"
+      >
+        <DisplayBanner
+          isBothPlayersConnected={true}
+          playerMainHasWon={false}
+          playerSecondaryHasWon={false}
+          players={
+            Array [
+              Object {
+                "id": 0,
+                "position": "right",
+                "random": 18,
+                "selected": -2,
+              },
+              Object {
+                "id": 1,
+                "position": "left",
+                "random": 10,
+                "selected": -1,
+              },
+            ]
+          }
+        />
+        <Memo(Player)
+          key="0"
+          position="right"
+          random={18}
+          selected={-2}
+        >
+          <styled.section
+            position="right"
+          >
+            <section
+              className="sc-dlfnbm erLmhA"
+            >
+              <div
+                className="player-container"
+              >
+                <CommonBtn
+                  content={-2}
+                  disabled={true}
+                >
+                  <styled.button
+                    color="#56aadb"
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="sc-bdfBwQ kBnWnV"
+                      color="#56aadb"
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                      -2
+                    </button>
+                  </styled.button>
+                </CommonBtn>
+                <Input
+                  value="[(-2 + 18) / 3]"
+                >
+                  <styled.input
+                    disabled={true}
+                    type="text"
+                    value="[(-2 + 18) / 3]"
+                  >
+                    <input
+                      className="sc-gsTCUz fBPyOD"
+                      disabled={true}
+                      type="text"
+                      value="[(-2 + 18) / 3]"
+                    />
+                  </styled.input>
+                </Input>
+                <Input
+                  value="5"
+                >
+                  <styled.input
+                    disabled={true}
+                    type="text"
+                    value="5"
+                  >
+                    <input
+                      className="sc-gsTCUz fBPyOD"
+                      disabled={true}
+                      type="text"
+                      value="5"
+                    />
+                  </styled.input>
+                </Input>
+              </div>
+            </section>
+          </styled.section>
+        </Memo(Player)>
+        <Memo(Player)
+          key="1"
+          position="left"
+          random={10}
+          selected={-1}
+        >
+          <styled.section
+            position="left"
+          >
+            <section
+              className="sc-dlfnbm lkROmz"
+            >
+              <div
+                className="player-container"
+              >
+                <CommonBtn
+                  content={-1}
+                  disabled={true}
+                >
+                  <styled.button
+                    color="#56aadb"
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="sc-bdfBwQ kBnWnV"
+                      color="#56aadb"
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                      -1
+                    </button>
+                  </styled.button>
+                </CommonBtn>
+                <Input
+                  value="[(-1 + 10) / 3]"
+                >
+                  <styled.input
+                    disabled={true}
+                    type="text"
+                    value="[(-1 + 10) / 3]"
+                  >
+                    <input
+                      className="sc-gsTCUz fBPyOD"
+                      disabled={true}
+                      type="text"
+                      value="[(-1 + 10) / 3]"
+                    />
+                  </styled.input>
+                </Input>
+                <Input
+                  value="3"
+                >
+                  <styled.input
+                    disabled={true}
+                    type="text"
+                    value="3"
+                  >
+                    <input
+                      className="sc-gsTCUz fBPyOD"
+                      disabled={true}
+                      type="text"
+                      value="3"
+                    />
+                  </styled.input>
+                </Input>
+              </div>
+            </section>
+          </styled.section>
+        </Memo(Player)>
+      </article>
+    </styled.article>
+  </Memo(Home)>
+</Provider>
+`;

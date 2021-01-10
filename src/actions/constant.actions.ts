@@ -1,0 +1,10 @@
+export const PLAYER_MAIN_ADD_NUMBER = 'player_main/ADD_NUMBER';
+export const PLAYER_MAIN_UPDATE_CONNECTION = 'player_main/UPDATE_CONNECTION';
+export const PLAYER_SECONDARY_ADD_NUMBER = 'player_secondary/ADD_NUMBER';
+export const PLAYER_SECONDARY_UPDATE_CONNECTION = 'player_secondary/UPDATE_CONNECTION';
+export const PLAYER_MAIN_UPDATE_NUM_SELECTED = 'player_main/UPDATE_NUM_SELECTED';
+export const PLAYER_SECONDARY_UPDATE_NUM = 'player_secondary/UPDATE_NUM';
+export const PLAYER_MAIN_UPDATE_HAS_WON = 'player_main/UPDATE_HAS_WON';
+export const PLAYER_SECONDARY_UPDATE_HAS_WON = 'player_secondary/UPDATE_HAS_WON';
+export const WEBSOCKET_UPDATE_CONNECTION = 'websocket/UPDATE_CONNECTION';
+export const WEBSOCKET_UPDATE_ERROR = 'websocket/UPDATE_ERROR';
