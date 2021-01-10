@@ -8,6 +8,8 @@ Redux and Typescript has been used and few test cases have been written, using e
 
 ## Learn More
 
+The Websocket url can be replaced in src/common/constants/constants-utility in URL_SOCKET variable. The Serverless Backend app is hosted in the repo https://github.com/shaunak1111/ScooberGameBackend
+
 ## Available Scripts
 
 In the project directory, you can run:
