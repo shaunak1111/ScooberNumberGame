@@ -8,6 +8,8 @@ Redux and Typescript has been used and few test cases have been written, using e
 
 The resposiveness has been handled using Flexbox and Styled components has been used as a CSS-IN-JSS library.
 
+The websocket connections are being handled in Redux Middleware.
+
 Please connect both the players to start the game.
 
 TSLINT errors have not been fixed
