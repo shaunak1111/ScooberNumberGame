@@ -6,6 +6,12 @@ Please not that if running in production mode some dev tools extensions may inte
 
 Redux and Typescript has been used and few test cases have been written, using enzyme
 
+The resposiveness has been handled using Flexbox and Styled components has been used as a CSS-IN-JSS library.
+
+Please connect both the players to start the game.
+
+TSLINT errors have not been fixed
+
 ## Learn More
 
 The Websocket url can be replaced in src/common/constants/constants-utility in URL_SOCKET variable. The Serverless Backend app is hosted in the repo https://github.com/shaunak1111/ScooberGameBackend
@@ -25,7 +31,6 @@ You will also see any lint errors in the console.
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
